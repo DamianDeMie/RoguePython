@@ -7,6 +7,8 @@ from components.item import Item
 
 from entity import Entity
 
+from components.item_functions import heal
+
 from map_objects.rectangle import Rect
 from map_objects.tile import Tile
 
@@ -163,7 +165,7 @@ class GameMap:
             if not any(
                 [entity for entity in entities if entity.x == x and entity.y == y]
             ):
-                item_component = Item()
+                item_component = Item(use_function=heal, amount=4)
                 item = Entity(
                     x,
                     y,

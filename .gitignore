@@ -15,3 +15,5 @@ map_objects/__pycache__/__init__.cpython-38.pyc
 map_objects/__pycache__/game_map.cpython-38.pyc
 map_objects/__pycache__/rectangle.cpython-38.pyc
 map_objects/__pycache__/tile.cpython-38.pyc
+components/__pycache__/menus.cpython-38.pyc
+components/__pycache__/item_functions.cpython-38.pyc
